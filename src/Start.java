@@ -8,29 +8,10 @@ import java.util.List;
  */
 public class Start {
     public static void main(String[] args) {
-        long prod = 800;
-        long[] a = ProdFib.productFib(prod);
-        System.out.println(a[0]+" "+
-                a[1]+" "+
-                a[2]+" "+ a[0]*a[1]+" "+prod);
 
-        /*
-        abcdefghjuty12 1
+        System.out.println(Suite.going(7));
 
-        []abcdefghjuty12
-[(\+[0-9]{1,2}-[0-9]{3}-[0-9]{3}-[0-9]{4})(<(.+?)>)]
 
-         */
-
-   //     String string = "I have spread my dreams under your feet; Tread softly because you tread on my dreams. William B Yeats (1865-1939)";
-                       //I h[ave spread my dreams under your feet; Tread softly because you tread on my dreams. William B Yea]ts (1865-1939)
-//        List<String> strings = CaesarCipher.movingShift(string,25);
-  //      System.out.println(strings.toString());
-    //    System.out.println(CaesarCipher.demovingShift(strings).toString());
-
-        //System.out.println(Dinglemouse.histogram(new int[]{7,3,10,1,0,5}));
-        //System.out.println(Dinglemouse.histogram(new int[]{10, 8, 3, 3, 13, 13}));
-        //System.out.println(Dinglemouse.histogram(new int[]{4, 13, 8, 8, 10, 7}));
         //System.out.println(Dinglemouse.histogram(new int[]{0, 0, 0, 0, 0, 0}));
         //System.out.println(Solution.zeros(25));
         //System.out.println((KPrimes.countKprimes(5,0,10)));
