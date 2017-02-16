@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -8,8 +9,9 @@ import java.util.List;
  */
 public class Start {
     public static void main(String[] args) {
-
-        System.out.println(Suite.going(7));
+        System.out.println(ToSmallest.smallest(261235));
+        System.out.println(ToSmallest.smallest(209917));
+        System.out.println(ToSmallest.smallest(285365));
 
 
         //System.out.println(Dinglemouse.histogram(new int[]{0, 0, 0, 0, 0, 0}));
